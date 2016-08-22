@@ -11,9 +11,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compact/angular-bootstrap-lightbox.git"
+    "url": "git://github.com/hades217/ng-bootstrap-lightbox.git"
   },
-  "homepage": "http://compact.github.io/angular-bootstrap-lightbox/",
+  "homepage": "https://github.com/hades217/ng-bootstrap-lightbox",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
