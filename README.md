@@ -1,4 +1,12 @@
-# angular-bootstrap-lightbox
+# ng-bootstrap-lightbox
+
+This repo is forked from https://github.com/compact/angular-bootstrap-lightbox
+
+# Update features
+
+Change styling of lightbox with flat design
+
+#Intro
 
 This lightbox displays images using an [AngularUI Bootstrap Modal](http://angular-ui.github.io/bootstrap/#/modal) (v0.14).
 
@@ -6,28 +14,29 @@ When the lightbox is opened, navigating to the previous/next image can be achiev
 
 Large images are scaled to fit inside the window. An optional image caption overlays the top left corner of the image.
 
-## Demos
+<!-- ## Demos
 
-[Demos](http://compact.github.io/angular-bootstrap-lightbox/) / [Plunker](http://plnkr.co/edit/pEXXDYLl0NtkqupEXaJK?p=preview)
+[Demos](http://compact.github.io/angular-bootstrap-lightbox/) / [Plunker](http://plnkr.co/edit/pEXXDYLl0NtkqupEXaJK?p=preview) -->
 
 ## Setup
 
 1. Install in one of the following ways:
-
-  * Install with Bower: `bower install angular-bootstrap-lightbox --save`
-  * Install with npm: `npm install angular-bootstrap-lightbox --save`
+  * add ng-bootstrap-lightbox to package.json or bower.json
+  `"ng-bootstrap-lightbox": "git://github.com/hades217/ng-bootstrap-lightbox.git"`
+  * Install with Bower: `bower install`
+  * Install with npm: `npm install`
   * Manually save the script and stylesheet from [`dist`](dist).
 
 2. Include the stylesheet in your app:
 
   ```html
-  <link rel="stylesheet" href="angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css">
+  <link rel="stylesheet" href="ng-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css">
   ```
 
 3. Include the script in your app:
 
   ```html
-  <script src="angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.js"></script>
+  <script src="ng-bootstrap-lightbox/dist/angular-bootstrap-lightbox.js"></script>
   ```
 
 4. The Angular module is named `bootstrapLightbox`. Add it as a dependency to your module:
