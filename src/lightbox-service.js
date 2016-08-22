@@ -18,7 +18,7 @@ angular.module('bootstrapLightbox').provider('Lightbox', function () {
    * @name     fullScreenMode
    * @memberOf bootstrapLightbox.Lightbox
    */
-  this.fullScreenMode = false;
+  this.fullScreenMode = true;
 
   /**
    * @param    {*} image An element in the array of images.
@@ -263,7 +263,8 @@ angular.module('bootstrapLightbox').provider('Lightbox', function () {
 
           Lightbox.keyboardNavEnabled = true;
         }],
-        'windowClass': 'lightbox-modal'
+        'windowClass': 'lightbox-modal',
+		'openedClass': 'angular-lightbox-modal-opened'
       }, modalParams || {}));
 
       // modal close handler
@@ -373,6 +374,7 @@ angular.module('bootstrapLightbox').provider('Lightbox', function () {
      * @memberOf bootstrapLightbox.Lightbox
      */
     Lightbox.prevImage = function () {
+		console.log('prevImage');
       Lightbox.setImage((Lightbox.index - 1 + Lightbox.images.length) %
         Lightbox.images.length);
     };
